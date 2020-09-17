@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php load_template(TEMPLATEPATH . '/header-2.php'); ?>
 	<div class="header-banner">
 		<div class="banner">
 						<div  id="top" class="callbacks_container">

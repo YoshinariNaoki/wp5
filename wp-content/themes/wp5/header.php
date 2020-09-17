@@ -4,7 +4,7 @@
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
 <!-- Custom Theme files -->
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
@@ -56,12 +56,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
-					<li class="hvr-bounce-to-bottom active"><a href="<?php echo home_url(); ?>">Home <span class="sr-only">(current)</span></a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/reserve">Services</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/gallery">GALLERY</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/contact">Contact Us</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_home() ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>">Home</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_home('about') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_home('reserve') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/reserve">Services</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_home('gallery') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/gallery">GALLERY</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_home('blog') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_home('contact') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
 				  </ul>
 			  <div class="clearfix"></div>
 			</div><!-- /.navbar-collapse -->

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
 <head><title><?php wp_title('｜', true, 'right'); ?><?php bloginfo('name'); ?></title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.min.js"></script>
 <!-- Custom Theme files -->
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
@@ -17,8 +16,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--webfont-->
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/move-top.js"></script>
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/js/easing.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/move-top.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/easing.js"></script>
 <!--/script-->
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
@@ -29,8 +28,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 </script>
 <!-- for bootstrap working -->
-		<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/bootstrap.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
+<?php wp_head(); ?>
 </head>
 <body>
 	<!-- header-section-starts -->	
@@ -56,19 +56,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>">Home <span class="sr-only">(current)</span></a></li>
-					<li class="hvr-bounce-to-bottom active"><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/reserve">Services</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/gallery">GALLERY</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="<?php echo home_url(); ?>/contact">Contact Us</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_home() ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>">Home</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_page('about') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_page('reserve') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/reserve">Services</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_page('gallery') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/gallery">GALLERY</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_page('blog') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_page('contact') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
 				  </ul>
 			  <div class="clearfix"></div>
 			</div><!-- /.navbar-collapse -->
 		</nav>
 	</div>
 </div>
+<!-- //navigation -->
 
-<div class="inner-banner"></div>
 
-<div class="clearfix"></div>
+				<div class="clearfix"></div>
+			</div>
+	<div class="inner-banner">
+	</div>
+	<!-- header-section-ends -->
+	<script src="<?php echo get_template_directory_uri(); ?>js/lightbox.js"></script>

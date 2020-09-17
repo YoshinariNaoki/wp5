@@ -1,0 +1,1544 @@
+# Translation of Plugins - Responsive Lightbox &amp; Gallery - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Responsive Lightbox &amp; Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-10 15:21:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Responsive Lightbox &amp; Gallery - Stable (latest release)\n"
+
+#: responsive-lightbox.php:934
+msgid "Add New Tag"
+msgstr "新規タグを追加"
+
+#: responsive-lightbox.php:931
+msgid "All Tags"
+msgstr "すべてのタグ"
+
+#: includes/class-galleries.php:1003 includes/class-galleries.php:1004
+msgid "All categories"
+msgstr "すべてのカテゴリー"
+
+#: includes/class-galleries.php:1433
+msgid "Current Page"
+msgstr "現在のページ"
+
+#: includes/class-folders.php:1164
+msgid "Delete %s"
+msgstr "%s を削除"
+
+#: includes/class-galleries.php:666
+msgid "Duplicate"
+msgstr "複製"
+
+#: includes/class-galleries.php:666
+msgid "Duplicate this item"
+msgstr "この項目を複製"
+
+#: responsive-lightbox.php:932
+msgid "Edit Tag"
+msgstr "タグの編集"
+
+#: includes/class-galleries.php:1040
+msgid "Filter by category"
+msgstr "カテゴリーで絞り込む"
+
+#: includes/class-galleries.php:1415
+msgid "First page"
+msgstr "最初の固定ページ"
+
+#: includes/class-galleries.php:1459
+msgid "Last page"
+msgstr "最後のページ"
+
+#: responsive-lightbox.php:935
+msgid "New Tag Name"
+msgstr "新規タグ名"
+
+#: includes/class-galleries.php:1448
+msgid "Next page"
+msgstr "次のページ"
+
+#: responsive-lightbox.php:936
+msgid "No tags found."
+msgstr "タグが見つかりませんでした。"
+
+#: includes/class-galleries.php:1426
+msgid "Previous page"
+msgstr "前のページ"
+
+#: responsive-lightbox.php:930
+msgid "Search Tags"
+msgstr "タグを検索"
+
+#: responsive-lightbox.php:933
+msgid "Update Tag"
+msgstr "タグを更新"
+
+#: responsive-lightbox.php:928 responsive-lightbox.php:937
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr "タグ"
+
+#: responsive-lightbox.php:929
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "タグ"
+
+#: includes/class-galleries.php:1440
+msgctxt "paging"
+msgid "%1$s"
+msgstr "%1$s"
+
+#: includes/class-settings.php:516
+msgid "hour(s)"
+msgstr "時間"
+
+#: includes/class-settings.php:443
+msgid "Media tags"
+msgstr "メディアタグ"
+
+#: includes/providers/class-unsplash.php:51
+msgid "Access key"
+msgstr "アクセスキー"
+
+#: includes/providers/class-wikimedia.php:22
+msgid "Wikimedia"
+msgstr "Wikimedia"
+
+#: includes/class-remote-library-api.php:145
+msgid "Request error"
+msgstr "リクエストエラー"
+
+#: responsive-lightbox.php:1010
+msgctxt "taxonomy singular name"
+msgid "Folder"
+msgstr "フォルダー"
+
+#: responsive-lightbox.php:1009 responsive-lightbox.php:1020
+msgctxt "taxonomy general name"
+msgid "Folders"
+msgstr "フォルダー"
+
+#: includes/class-settings.php:429 includes/class-settings.php:440
+#: includes/class-settings.php:990
+msgid "Folders"
+msgstr "フォルダー"
+
+#: includes/class-settings.php:423 includes/class-tour.php:195
+msgid "Folders Settings"
+msgstr "フォルダー設定"
+
+#: includes/class-settings.php:402
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: includes/class-galleries.php:85 includes/class-galleries.php:3632
+msgid "Status"
+msgstr "ステータス"
+
+#: includes/class-galleries.php:3939
+msgid "Type"
+msgstr "タイプ"
+
+#: includes/class-galleries.php:3940
+msgid "Source"
+msgstr "ソース"
+
+#: includes/class-galleries.php:1023 includes/class-tour.php:244
+msgid "Close"
+msgstr "閉じる"
+
+#: includes/class-settings.php:773
+msgid "Previous"
+msgstr "前"
+
+#: includes/class-settings.php:772 includes/class-tour.php:104
+#: includes/class-tour.php:125 includes/class-tour.php:139
+#: includes/class-tour.php:152 includes/class-tour.php:170
+#: includes/class-tour.php:179 includes/class-tour.php:188
+#: includes/class-tour.php:197 includes/class-tour.php:206
+#: includes/class-tour.php:215
+msgid "Next"
+msgstr "次へ"
+
+#: includes/class-settings.php:413 includes/class-settings.php:649
+msgid "All"
+msgstr "すべて"
+
+#: includes/class-galleries.php:3938
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: responsive-lightbox.php:795
+msgid "Add New"
+msgstr "新規追加"
+
+#: includes/class-galleries.php:219
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/class-galleries.php:2624
+msgid "(no title)"
+msgstr "(タイトルなし)"
+
+#: includes/class-galleries.php:1072
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/class-frontend.php:592 includes/class-galleries.php:222
+msgid "Date"
+msgstr "日付"
+
+#: includes/class-welcome.php:70
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: includes/class-tour.php:150
+msgid "General Settings"
+msgstr "一般設定"
+
+#: includes/class-galleries.php:137
+msgid "Misc"
+msgstr "その他"
+
+#: includes/class-galleries.php:3633
+msgid "Video"
+msgstr "動画"
+
+#: includes/class-settings.php:1699
+msgid "Preloader"
+msgstr "プリローダー"
+
+#: includes/class-settings.php:686
+msgid "Fade"
+msgstr "フェード"
+
+#: includes/class-galleries.php:2493
+msgid "&laquo; Previous"
+msgstr "&laquo; 前へ"
+
+#: includes/class-galleries.php:487
+msgid "AJAX"
+msgstr "AJAX"
+
+#: includes/class-settings.php:1755 includes/class-settings.php:1767
+msgid "Absolute"
+msgstr "絶対"
+
+#: includes/class-galleries.php:3624
+msgid "Aside"
+msgstr "アサイド"
+
+#: includes/class-galleries.php:3625
+msgid "Audio"
+msgstr "音声"
+
+#: includes/class-settings.php:1753 includes/class-settings.php:1765
+msgid "Auto"
+msgstr "自動"
+
+#: includes/class-galleries.php:443
+msgid "Background Color"
+msgstr "背景色"
+
+#: includes/class-galleries.php:448
+msgid "Background Opacity"
+msgstr "背景の透過率"
+
+#: includes/class-galleries.php:162
+msgid "Bottom"
+msgstr "下"
+
+#: includes/class-settings.php:370 responsive-lightbox.php:739
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: includes/class-galleries.php:3626
+msgid "Chat"
+msgstr "チャット"
+
+#: includes/class-frontend.php:608
+msgid "Columns"
+msgstr "カラム"
+
+#: includes/class-settings.php:660
+msgid "Controls"
+msgstr "コントロール"
+
+#: includes/class-galleries.php:3734
+msgid "Default Template"
+msgstr "デフォルトテンプレート"
+
+#: includes/class-galleries.php:2638
+msgid "Deselect"
+msgstr "選択を解除"
+
+#: responsive-lightbox.php:797
+msgid "Edit Gallery"
+msgstr "ギャラリーを編集"
+
+#: includes/class-galleries.php:86
+msgid "Edit image"
+msgstr "画像を編集"
+
+#: includes/class-galleries.php:116
+msgid "Featured Content"
+msgstr "おすすめコンテンツ"
+
+#: includes/class-settings.php:167
+msgid "Full Size"
+msgstr "フルサイズ"
+
+#: includes/class-tour.php:177
+msgid "Gallery Settings"
+msgstr "ギャラリーの設定"
+
+#: includes/class-galleries.php:105 includes/class-galleries.php:155
+#: includes/class-galleries.php:166
+msgid "Global"
+msgstr "全般"
+
+#: includes/class-settings.php:687
+msgid "Horizontal"
+msgstr "水平"
+
+#: includes/class-galleries.php:531
+msgid "Image Size"
+msgstr "画像サイズ"
+
+#: includes/class-galleries.php:3628
+msgid "Link"
+msgstr "リンク"
+
+#: includes/class-frontend.php:574
+msgid "Link To"
+msgstr "リンク先"
+
+#: includes/class-settings.php:615
+msgid "Loop"
+msgstr "ループ"
+
+#: responsive-lightbox.php:881
+msgid "M j, Y @ G:i"
+msgstr "Y年n月j日 @ G:i"
+
+#: includes/class-galleries.php:115 includes/class-galleries.php:4066
+msgid "Media Library"
+msgstr "メディアライブラリ"
+
+#: includes/class-galleries.php:2494
+msgid "Next &raquo;"
+msgstr "次へ &raquo;"
+
+#: includes/class-settings.php:627
+msgid "Overlay"
+msgstr "オーバーレイ"
+
+#: includes/class-galleries.php:298
+msgid "Page Parent"
+msgstr "親ページ"
+
+#: includes/class-galleries.php:305
+msgid "Page Template"
+msgstr "固定ページテンプレート"
+
+#: includes/class-galleries.php:3629
+msgid "Photo"
+msgstr "写真"
+
+#: includes/class-galleries.php:277
+msgid "Post Format"
+msgstr "投稿フォーマット"
+
+#: includes/class-galleries.php:270
+msgid "Post Status"
+msgstr "投稿ステータス"
+
+#: includes/class-galleries.php:263
+msgid "Post Type"
+msgstr "投稿タイプ"
+
+#: includes/class-settings.php:644
+msgid "Preload"
+msgstr "先読み"
+
+#: includes/class-galleries.php:3630
+msgid "Quote"
+msgstr "引用"
+
+#: includes/class-galleries.php:221
+msgid "Slug"
+msgstr "スラッグ"
+
+#: includes/class-galleries.php:3631
+msgid "Standard"
+msgstr "標準"
+
+#: includes/class-settings.php:377 responsive-lightbox.php:774
+msgid "Tags"
+msgstr "タグ"
+
+#: includes/class-galleries.php:3543
+msgid "Untitled"
+msgstr "名称未設定"
+
+#: includes/class-settings.php:688
+msgid "Vertical"
+msgstr "垂直"
+
+#: includes/class-widgets.php:504
+msgid "URL"
+msgstr "URL"
+
+#: includes/class-frontend.php:567 includes/class-widgets.php:476
+msgid "Size"
+msgstr "サイズ"
+
+#: includes/class-widgets.php:350
+msgid "Right"
+msgstr "右"
+
+#: includes/class-widgets.php:349
+msgid "Center"
+msgstr "中央"
+
+#: includes/class-widgets.php:348
+msgid "Left"
+msgstr "左"
+
+#: includes/class-widgets.php:313 includes/class-widgets.php:321
+msgid "Image"
+msgstr "画像"
+
+#: includes/class-settings.php:296
+msgid "Comments"
+msgstr "コメント"
+
+#: includes/class-widgets.php:343 includes/class-galleries.php:4067
+msgid "Custom URL"
+msgstr "カスタム URL"
+
+#: includes/class-frontend.php:579 includes/class-widgets.php:342
+msgid "Attachment Page"
+msgstr "添付ファイルのページ"
+
+#: includes/class-frontend.php:580 includes/class-widgets.php:341
+msgid "Media File"
+msgstr "メディアファイル"
+
+#: includes/class-settings.php:150 includes/class-settings.php:626
+#: includes/class-settings.php:685 includes/class-frontend.php:581
+#: includes/class-widgets.php:93 includes/class-widgets.php:340
+#: includes/class-widgets.php:347 includes/class-galleries.php:160
+msgid "None"
+msgstr "なし"
+
+#: includes/class-widgets.php:527
+msgid "Automatically add paragraphs"
+msgstr "自動的に段落追加する"
+
+#: includes/class-widgets.php:523
+msgid "Text"
+msgstr "テキスト"
+
+#: includes/class-settings.php:888 includes/class-settings.php:1806
+msgid "General"
+msgstr "一般"
+
+#: includes/class-frontend.php:591 includes/class-widgets.php:77
+#: includes/class-widgets.php:133 includes/class-widgets.php:457
+#: includes/class-galleries.php:220
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/class-galleries.php:87 responsive-lightbox.php:1176
+msgid "Remove image"
+msgstr "画像を削除"
+
+#: includes/class-widgets.php:94 responsive-lightbox.php:474
+msgid "Default"
+msgstr "デフォルト"
+
+#: includes/class-settings.php:290
+msgid "Widgets"
+msgstr "ウィジェット"
+
+#: includes/class-settings.php:209 includes/class-galleries.php:112
+msgid "Images"
+msgstr "画像"
+
+#: includes/class-widgets.php:462 responsive-lightbox.php:1178
+msgid "Select image"
+msgstr "画像を選択"
+
+#: includes/class-widgets.php:204
+msgid "Image size"
+msgstr "画像サイズ"
+
+#: includes/class-frontend.php:590 includes/class-widgets.php:79
+#: includes/class-galleries.php:218
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-settings.php:1806 includes/class-galleries.php:133
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/class-settings.php:284
+msgid "Videos"
+msgstr "動画"
+
+#: includes/class-settings.php:525 includes/class-settings.php:1031
+msgid "%s settings"
+msgstr "%s 設定"
+
+#: includes/class-widgets.php:57 includes/class-widgets.php:65
+#: includes/class-galleries.php:3627 includes/class-galleries.php:3929
+#: responsive-lightbox.php:805
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: includes/class-widgets.php:140 includes/class-galleries.php:1287
+#: responsive-lightbox.php:1073 responsive-lightbox.php:1177
+msgid "Select images"
+msgstr "画像を選択"
+
+#: includes/class-widgets.php:152
+msgid "Delete image"
+msgstr "画像を削除"
+
+#: includes/class-widgets.php:165
+msgid "Gallery type"
+msgstr "ギャラリー形式"
+
+#: includes/class-frontend.php:604 includes/class-widgets.php:85
+#: includes/class-galleries.php:235
+msgid "Descending"
+msgstr "降順"
+
+#: includes/class-frontend.php:603 includes/class-widgets.php:84
+#: includes/class-galleries.php:234
+msgid "Ascending"
+msgstr "昇順"
+
+#: includes/class-frontend.php:594 includes/class-widgets.php:80
+#: includes/class-galleries.php:225
+msgid "Random"
+msgstr "ランダム"
+
+#: includes/class-widgets.php:220
+msgid "Custom attributes"
+msgstr "カスタム属性"
+
+#: responsive-lightbox.php:1180
+msgid "Use this image"
+msgstr "この画像を使用する"
+
+#: responsive-lightbox.php:1074 responsive-lightbox.php:1179
+msgid "Use these images"
+msgstr "これらの画像を使用する"
+
+#: includes/class-widgets.php:490
+msgid "Link to"
+msgstr "リンク先"
+
+#: includes/class-widgets.php:336
+msgid "Above the image"
+msgstr "画像の上"
+
+#: includes/class-widgets.php:335
+msgid "Below the image"
+msgstr "画像の下"
+
+#: includes/class-frontend.php:598 includes/class-widgets.php:192
+msgid "Order"
+msgstr "順序"
+
+#: includes/class-settings.php:195
+msgid "Default lightbox"
+msgstr "デフォルト lightbox"
+
+#: includes/class-widgets.php:532
+msgid "Text position"
+msgstr "テキストの位置"
+
+#: includes/class-widgets.php:543
+msgid "Text align"
+msgstr "文字の配置"
+
+#: includes/class-widgets.php:510
+msgid "Image align"
+msgstr "画像の配置"
+
+#: includes/class-widgets.php:471
+msgid "Force responsive"
+msgstr "レスポンシブを強制"
+
+#: includes/class-widgets.php:216
+msgid "Number of columns"
+msgstr "カラム数"
+
+#: includes/class-widgets.php:180
+msgid "Order by"
+msgstr "並び順"
+
+#: includes/class-widgets.php:78
+msgid "Image date"
+msgstr "画像の日付"
+
+#: includes/class-widgets.php:59
+msgid "Displays an image gallery."
+msgstr "画像ギャラリーを表示します。"
+
+#: includes/class-widgets.php:351
+msgid "Justify"
+msgstr "均等割付"
+
+#: includes/class-widgets.php:76
+msgid "Menu order"
+msgstr "メニューの順序"
+
+#: includes/class-settings.php:1648
+msgid "background"
+msgstr "背景"
+
+#: includes/class-settings.php:1646
+msgid "Select how to close lightbox."
+msgstr "lightbox を閉じる方法を選択します。"
+
+#: includes/class-settings.php:1643
+msgid "Close on click"
+msgstr "クリックして閉じる"
+
+#: includes/class-settings.php:1662
+msgid "Gallery fade in"
+msgstr "ギャラリーのフェードイン"
+
+#: includes/class-settings.php:1670
+msgid "Gallery fade out"
+msgstr "ギャラリーのフェードアウト"
+
+#: includes/class-settings.php:1665
+msgid "Animation speed when image is loaded."
+msgstr "画像が読み込まれるときのアニメーションの速度。"
+
+#: includes/class-settings.php:1655
+msgid "Close on Esc"
+msgstr "Esc で閉じる"
+
+#: includes/class-settings.php:1638
+msgid "Duration of closing animation."
+msgstr "アニメーションを閉じる時間。"
+
+#: includes/class-settings.php:1630
+msgid "Duration of opening animation."
+msgstr "アニメーションを開く時間。"
+
+#: includes/class-settings.php:1627
+msgid "Opening speed"
+msgstr "開く速度"
+
+#: includes/class-settings.php:1635
+msgid "Closing speed"
+msgstr "閉じる速度"
+
+#: includes/class-settings.php:1673
+msgid "Animation speed before image is loaded."
+msgstr "画像が読み込まれる前のアニメーション速度。"
+
+#: includes/class-settings.php:1650
+msgid "false"
+msgstr "false"
+
+#: includes/class-settings.php:308
+msgid "WooCommerce lightbox"
+msgstr "WooCommerce lightbox"
+
+#: includes/class-settings.php:311
+msgid "Replace WooCommerce product gallery lightbox."
+msgstr "WooCommerce 商品ギャラリー lightbox を置き換えます。"
+
+#: includes/class-settings.php:1039
+msgid "Animation type"
+msgstr "アニメーションタイプ"
+
+#: includes/class-settings.php:1069
+msgid "Top and bottom bars"
+msgstr "上部と下部のバー"
+
+#: includes/class-settings.php:1087
+msgid "Video max width"
+msgstr "動画最大幅"
+
+#: includes/class-settings.php:1108 includes/class-settings.php:1494
+msgid "Animation speed"
+msgstr "アニメーションの速度"
+
+#: includes/class-settings.php:761 includes/class-settings.php:1117
+msgid "Slideshow"
+msgstr "スライドショー"
+
+#: includes/class-settings.php:1135
+msgid "Slideshow autoplay"
+msgstr "スライドショーの自動再生"
+
+#: includes/class-settings.php:1142 includes/class-settings.php:1342
+msgid "Opacity"
+msgstr "不透明"
+
+#: includes/class-settings.php:1158
+msgid "Allow resize big images"
+msgstr "大きな画像サイズを変更可能"
+
+#: includes/class-settings.php:1172 includes/class-settings.php:1436
+msgid "Video width"
+msgstr "動画の幅"
+
+#: includes/class-settings.php:1179 includes/class-settings.php:1444
+msgid "Video height"
+msgstr "動画の高さ"
+
+#: includes/class-settings.php:1186
+msgid "Theme"
+msgstr "テーマ"
+
+#: includes/class-settings.php:1194
+msgid "Horizontal padding"
+msgstr "水平パディング"
+
+#: includes/class-settings.php:1216
+msgid "Video autoplay"
+msgstr "動画自動再生"
+
+#: includes/class-settings.php:1223 includes/class-settings.php:1264
+msgid "Modal"
+msgstr "モーダル"
+
+#: includes/class-settings.php:1230
+msgid "Deeplinking"
+msgstr "ディープリンク"
+
+#: includes/class-settings.php:1237
+msgid "Overlay gallery"
+msgstr "オーバーレイギャラリー"
+
+#: includes/class-settings.php:1244
+msgid "Keyboard shortcuts"
+msgstr "キーボードショートカット"
+
+#: includes/class-settings.php:1211
+msgid "Select flash window mode."
+msgstr "フラッシュ・ウィンドウモードを選択します。"
+
+#: includes/class-settings.php:1226
+msgid "If set to true, only the close button will close the window."
+msgstr "有効にした場合、閉じるボタンでウィンドウを閉じます。"
+
+#: includes/class-settings.php:1233
+msgid "Allow prettyPhoto to update the url to enable deeplinking."
+msgstr "prettyPhotoがディープリンクを有効にするURLを更新することを許可します。"
+
+#: includes/class-settings.php:1240
+msgid "If enabled, a gallery will overlay the fullscreen image on mouse over."
+msgstr "有効にした場合ギャラリーにマウスオーバーでフルスクリーン画像をオーバーレイします。"
+
+#: includes/class-settings.php:1899
+msgid "Reset to defaults"
+msgstr "デフォルトにリセット"
+
+#: includes/class-welcome.php:71 responsive-lightbox.php:652
+msgid "Support"
+msgstr "サポート"
+
+#: includes/class-welcome.php:69 responsive-lightbox.php:675
+msgid "Settings"
+msgstr "設定"
+
+#: includes/class-settings.php:1320
+msgid "Auto scale"
+msgstr "自動スケール"
+
+#: includes/class-settings.php:1219
+msgid "Automatically start videos."
+msgstr "自動的に動画を開始します。"
+
+#: includes/class-settings.php:1335
+msgid "Center on scroll"
+msgstr "スクロールでセンター"
+
+#: includes/class-settings.php:1412
+msgid "Change fade"
+msgstr "フェードを変更"
+
+#: includes/class-settings.php:1404
+msgid "Change speed"
+msgstr "速度を変更"
+
+#: includes/class-settings.php:1361
+msgid "Color of the overlay."
+msgstr "オーバーレイの色。"
+
+#: includes/class-settings.php:1306
+msgid "Cyclic"
+msgstr "循環"
+
+#: includes/class-settings.php:1391
+msgid "Easing used for elastic animations."
+msgstr "緩和弾性アニメーションに使用されます。"
+
+#: includes/class-settings.php:1458
+msgid "Effect"
+msgstr "効果"
+
+#: includes/class-settings.php:1447
+msgid "Height of the video."
+msgstr "動画の高さ。"
+
+#: includes/class-settings.php:1299
+msgid "Hide on content click"
+msgstr "コンテンツをクリックで隠す"
+
+#: includes/class-settings.php:1292
+msgid "Hide on overlay click"
+msgstr "オーバーレイをクリックで隠す"
+
+#: includes/class-settings.php:1323
+msgid "If true, FancyBox is scaled to fit in viewport."
+msgstr "有効の場合 FancyBoxはビューポートに収まるようにスケーリングします。"
+
+#: includes/class-settings.php:862 includes/class-settings.php:1428
+msgid "Margin"
+msgstr "マージン"
+
+#: includes/class-settings.php:1352
+msgid "Opacity of the overlay."
+msgstr "オーバーレイの不透明度。"
+
+#: includes/class-settings.php:1358
+msgid "Overlay color"
+msgstr "オーバーレイの色"
+
+#: includes/class-settings.php:1420
+msgid "Padding"
+msgstr "パディング"
+
+#: includes/class-settings.php:1327
+msgid "Scrolling (in/out)"
+msgstr "スクロール(イン/アウト)"
+
+#: includes/class-settings.php:1247
+msgid "Set to false if you open forms inside prettyPhoto."
+msgstr "prettyPhoto内部フォームを開く場合は無効にします。"
+
+#: includes/class-settings.php:1278 includes/class-settings.php:1727
+msgid "Show close button"
+msgstr "閉じるボタンを表示"
+
+#: includes/class-settings.php:1313
+msgid "Show nav arrows"
+msgstr "ナビゲーション矢印を表示"
+
+#: includes/class-settings.php:1271
+msgid "Show overlay"
+msgstr "オーバーレイを表示"
+
+#: includes/class-settings.php:1423
+msgid "Space between FancyBox wrapper and content."
+msgstr "FancyBoxラッパーとコンテンツの間のスペース。"
+
+#: includes/class-settings.php:1407
+msgid "Speed of resizing when changing gallery items, in milliseconds."
+msgstr "ギャラリーの項目を変更するときのサイズ変更速度。(ミリ秒単位)"
+
+#: includes/class-settings.php:1415
+msgid "Speed of the content fading while changing gallery items."
+msgstr "ギャラリーのコンテンツ項目を変るフェージングの速度。"
+
+#: includes/class-settings.php:1399
+msgid "Speed of the fade and elastic transitions, in milliseconds."
+msgstr "フェードと弾力性の速度。(ミリ秒単位)"
+
+#: includes/class-settings.php:1375
+msgid "The position of title."
+msgstr "タイトルの位置。"
+
+#: includes/class-settings.php:1383
+msgid "The transition type."
+msgstr "トランジションタイプ。"
+
+#: includes/class-settings.php:1372
+msgid "Title position"
+msgstr "タイトルの位置"
+
+#: includes/class-settings.php:1365
+msgid "Title show"
+msgstr "タイトルを表示"
+
+#: includes/class-settings.php:1302
+msgid "Toggle if clicking the content should close FancyBox."
+msgstr "コンテンツをクリックするとFancyBoxを閉じるべきかどうかを切り替えます。"
+
+#: includes/class-settings.php:1295
+msgid "Toggle if clicking the overlay should close FancyBox."
+msgstr "オーバーレイをクリックすると、 FancyBoxを閉じるべきかどうかを切り替えます。"
+
+#: includes/class-settings.php:1316
+msgid "Toggle navigation arrows."
+msgstr "ナビゲーション用の矢印を切り替えます。"
+
+#: includes/class-settings.php:1368
+msgid "Toggle title."
+msgstr "タイトルを切り替えます。"
+
+#: includes/class-settings.php:1338
+msgid "When true, FancyBox is centered while scrolling page."
+msgstr "有効の場合スクロールするとFancyBoxを中央に配置します。"
+
+#: includes/class-settings.php:1309
+msgid "When true, galleries will be cyclic, allowing you to keep pressing next/back."
+msgstr "有効の場合ギャラリーは繰り返し、次へ/戻るを押すと維持することができます。"
+
+#: includes/class-settings.php:1345
+msgid "When true, transparency of content is changed for elastic transitions."
+msgstr "有効の場合コンテンツの透明度は弾性遷移に変更されます。"
+
+#: includes/class-settings.php:1439
+msgid "Width of the video."
+msgstr "動画の幅。"
+
+#: includes/class-settings.php:1466 includes/class-settings.php:1561
+msgid "Keyboard navigation"
+msgstr "キーボードナビゲーション"
+
+#: includes/class-settings.php:1480
+msgid "Error message"
+msgstr "エラーメッセージ"
+
+#: includes/class-settings.php:1484
+msgid "Error message if the content cannot be loaded."
+msgstr "コンテンツがロードできない場合のエラーメッセージ。"
+
+#: includes/class-settings.php:2282
+msgid "Settings restored to defaults."
+msgstr "設定をデフォルトに復元します。"
+
+#: responsive-lightbox.php:1051
+msgid "Are you sure you want to reset these settings to defaults?"
+msgstr "これらの設定をデフォルトにリセットしてもよろしいですか？"
+
+#: includes/class-settings.php:1165
+msgid "Allow expand"
+msgstr "拡大を許可"
+
+#: includes/class-settings.php:315
+msgid "Custom events"
+msgstr "カスタムイベント"
+
+#. Author of the plugin
+msgid "dFactory"
+msgstr "dFactory"
+
+#: includes/class-settings.php:1051
+msgid "Enable this if you're having problems with navigation icons not visible on some devices."
+msgstr "いくつかのデバイス上で表示出来ないナビゲーションアイコンの問題を抱えている場合は、これを有効にします。"
+
+#. Author URI of the plugin
+msgid "http://www.dfactory.eu/"
+msgstr "http://www.dfactory.eu/"
+
+#. Plugin URI of the plugin
+msgid "http://www.dfactory.eu/plugins/responsive-lightbox/"
+msgstr "http://www.dfactory.eu/plugins/responsive-lightbox/"
+
+#: includes/class-settings.php:325
+msgid "Enter a space separated list of events."
+msgstr "イベントのスペースで区切って入力します。"
+
+#: includes/class-settings.php:1497
+msgid "Animation speed."
+msgstr "アニメーション速度。"
+
+#: includes/class-settings.php:1509
+msgid "Enable keyboard keys"
+msgstr "キーボードのキーを有効"
+
+#: includes/class-settings.php:330
+msgid "Loading place"
+msgstr "場所のロード"
+
+#: includes/class-settings.php:1502
+msgid "Preload next image"
+msgstr "次の画像をプリロード"
+
+#: includes/class-settings.php:1516
+msgid "Quit after last image"
+msgstr "最後の画像の後に終了する"
+
+#: includes/class-settings.php:1519
+msgid "Quit after viewing the last image."
+msgstr "最後の画像を表示した後に終了します。"
+
+#: includes/class-settings.php:1533
+msgid "Quit when anything but the viewed image is clicked."
+msgstr "何かをクリックしたときに表示された画像を終了します。"
+
+#: includes/class-settings.php:1526
+msgid "Quit when the viewed image is clicked."
+msgstr "表示された画像をクリックしたときに終了します。"
+
+#: includes/class-settings.php:1505
+msgid "Silently preload the next image."
+msgstr "サイレントモードで次の画像をプリロードします。"
+
+#: includes/class-settings.php:1017 includes/class-settings.php:2013
+msgid "Licenses"
+msgstr "ライセンス"
+
+#: includes/class-settings.php:1025 includes/class-tour.php:222
+#: responsive-lightbox.php:678
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: includes/class-settings.php:2295
+msgid "Add-ons / Extensions"
+msgstr "アドオン/拡張機能"
+
+#: includes/class-settings.php:1168
+msgid "Allow expanding images."
+msgstr "画像の拡大を許可する。"
+
+#: responsive-lightbox.php:1052
+msgid "Are you sure you want to reset this script settings to defaults?"
+msgstr "本当にこのスクリプトの設定をデフォルトにリセットしますか ?"
+
+#: includes/class-settings.php:1138 includes/class-settings.php:1574
+msgid "Automatically start slideshow."
+msgstr "自動的にスライドショーを開始する。"
+
+#: includes/class-settings.php:1568
+msgid "Autoplay"
+msgstr "自動再生"
+
+#: includes/class-settings.php:1473
+msgid "Click overlay to close"
+msgstr "閉じるにはオーバーレイをクリック"
+
+#: includes/class-settings.php:340
+msgid "Conditional loading"
+msgstr "条件付き読み込み"
+
+#: includes/class-settings.php:346
+msgid "Delete data"
+msgstr "データを削除"
+
+#: includes/class-settings.php:1154
+msgid "Display image title."
+msgstr "画像タイトルを表示する。"
+
+#: includes/class-settings.php:1123
+msgid "Display images as slideshow"
+msgstr "画像をスライドショーとして表示"
+
+#: includes/class-settings.php:1852
+msgid "Do you like this plugin?"
+msgstr "プラグインを気に入っていただけましたか ?"
+
+#: includes/class-settings.php:1388
+msgid "Easings (in/out)"
+msgstr "イージング (イン/アウト)"
+
+#: includes/class-settings.php:1285
+msgid "Enable escape button"
+msgstr "Esc ボタンを有効化"
+
+#: includes/class-settings.php:1090
+msgid "Enter the max video width in a lightbox."
+msgstr "Lightbox 内の動画最大幅を入力してください。"
+
+#: includes/class-settings.php:1080
+msgid "Enter the time after which the top and bottom bars will be hidden (when hiding is enabled)."
+msgstr "上部と下部のバーを非表示にするまでの時間を入力してください (非表示効果が有効化されている場合) 。"
+
+#: includes/class-settings.php:1128
+msgid "Enter time (in miliseconds)."
+msgstr "時間 (ミリ秒単位) を入力してください。"
+
+#: includes/class-settings.php:1208
+msgid "Flash Window Mode (wmode)"
+msgstr "Flash ウィンドウモード (wmode)"
+
+#: includes/class-settings.php:1048
+msgid "Force PNG icons"
+msgstr "PNG アイコンを強制"
+
+#: includes/class-settings.php:263
+msgid "Gallery image size"
+msgstr "ギャラリー画像サイズ"
+
+#: includes/class-settings.php:270
+msgid "Gallery image title"
+msgstr "ギャラリー画像タイトル"
+
+#: includes/class-settings.php:1201
+msgid "Hide Flash"
+msgstr "Flash を非表示"
+
+#: includes/class-settings.php:1554
+msgid "Infinite loop"
+msgstr "無限ループ"
+
+#: includes/class-tour.php:168
+msgid "Lightboxes Settings"
+msgstr "Lightbox 設定"
+
+#: includes/class-settings.php:1095
+msgid "Loop at end"
+msgstr "最後で繰り返し"
+
+#: includes/class-settings.php:1849
+msgid "Need support?"
+msgstr "サポートが必要な場合"
+
+#: includes/class-settings.php:1586
+msgid "Pause on hover"
+msgstr "マウスオーバーで一時停止"
+
+#: includes/class-settings.php:1530
+msgid "Quit on anything click"
+msgstr "何かをクリックして終了"
+
+#: includes/class-settings.php:1523
+msgid "Quit on image click"
+msgstr "画像クリックで終了"
+
+#: includes/class-settings.php:1161
+msgid "Resize the photos bigger than viewport."
+msgstr "ビューポートよりも大きい写真をリサイズする。"
+
+#: includes/providers/class-flickr.php:128
+#: includes/providers/class-unsplash.php:126
+#: includes/providers/class-wikimedia.php:127
+msgid "Responsive Lightbox"
+msgstr "Responsive Lightbox"
+
+#: includes/class-settings.php:1043
+msgid "Select a method of applying a lightbox effect."
+msgstr "Lightbox 効果の適用方法を選択してください。"
+
+#: includes/class-settings.php:1112
+msgid "Select animation speed for lightbox effect."
+msgstr "Lightbox 効果のアニメーション速度を選択してください。"
+
+#: includes/class-settings.php:1189
+msgid "Select the theme for lightbox effect."
+msgstr "Lightbox 効果用のテーマを選択してください。"
+
+#: includes/class-settings.php:333
+msgid "Select where all the lightbox scripts should be placed."
+msgstr "すべての lightbox のスクリプトを置く場所を選択してください。"
+
+#: includes/class-settings.php:1330
+msgid "Set the overflow CSS property to create or hide scrollbars."
+msgstr "スクロールバーを作成または非表示にする場合のオーバーフロー CSS プロパティを設定してください。"
+
+#: includes/class-settings.php:1251
+msgid "Social (Twitter, Facebook)"
+msgstr "ソーシャル (Twitter、Facebook)"
+
+#: includes/class-settings.php:1431
+msgid "Space between viewport and FancyBox wrapper."
+msgstr "ビューポートと FancyBox ラッパーの間のスペース。"
+
+#: includes/class-settings.php:1396
+msgid "Speed (in/out)"
+msgstr "速度 (イン/アウト)"
+
+#: includes/class-settings.php:1461
+msgid "The effect to use when showing the lightbox."
+msgstr "lightbox を表示する際に使用する効果。"
+
+#: includes/class-settings.php:2308
+msgid "There was an error retrieving the extensions list from the server. Please try again later."
+msgstr "サーバーから拡張機能のリストを取得する際にエラーが生じました。後ほどもう一度お試しください。"
+
+#: includes/class-settings.php:1281
+msgid "Toggle close button."
+msgstr "閉じるボタンを切り替える。"
+
+#: includes/class-settings.php:1274
+msgid "Toggle overlay."
+msgstr "オーバーレイを切り替える。"
+
+#: includes/class-settings.php:1380
+msgid "Transition (in/out)"
+msgstr "トランジション (イン/アウト)"
+
+#: includes/class-settings.php:1543
+msgid "Transition effect"
+msgstr "遷移効果"
+
+#: includes/class-settings.php:1145
+msgid "Value between 0 and 100, 100 for no opacity."
+msgstr "0～100間の値。100は透明度なし。"
+
+#: includes/class-settings.php:1546
+msgid "What effect to use for the transition."
+msgstr "遷移に使う効果。"
+
+#: includes/class-settings.php:1604
+msgid "What type of pagination to use."
+msgstr "使用する改ページの種類。"
+
+#: includes/class-settings.php:1599
+msgid "Whether or not to add a pagination."
+msgstr "改ページを追加するかどうか。"
+
+#: includes/class-settings.php:1589
+msgid "Whether or not to pause on hover."
+msgstr "マウスオーバーで一時停止するかどうか。"
+
+#: includes/class-settings.php:1548
+msgid "slide"
+msgstr "スライド"
+
+#: includes/class-settings.php:1062
+msgid "Remove bars on mobile"
+msgstr "モバイルでバーを非表示"
+
+#: includes/class-settings.php:1058
+msgid "Hide the close button on mobile devices."
+msgstr "モバイルデバイスでは「閉じる」ボタンを非表示にします。"
+
+#: includes/class-settings.php:1065
+msgid "Hide the top and bottom bars on mobile devices."
+msgstr "モバイルデバイスでは上下のバーを非表示にします。"
+
+#: includes/class-settings.php:1055
+msgid "Hide close on mobile"
+msgstr "モバイルで「閉じる」を非表示"
+
+#: includes/class-settings.php:1476 includes/class-settings.php:1617
+msgid "Enable to close lightbox on overlay click."
+msgstr "オーバーレイをクリックした際に lightbox を閉じるには有効化してください。"
+
+#: includes/class-settings.php:1075
+msgid "Hide top and bottom bars after a period of time."
+msgstr "一定時間経過後、上下のバーを非表示にします。"
+
+#: includes/class-settings.php:349
+msgid "Delete all plugin settings on deactivation."
+msgstr "無効化の際にすべてのプラグイン設定を削除します。"
+
+#: includes/class-settings.php:1254
+msgid "Display links to Facebook and Twitter."
+msgstr "Facebook や Twitter へのリンクを表示します。"
+
+#: includes/class-settings.php:1512
+msgid "Enable keyboard shortcuts (arrows Left/Right and Esc)."
+msgstr "キーボードショートカット (左右矢印と Esc) を有効化します。"
+
+#: includes/class-settings.php:1469 includes/class-settings.php:1564
+msgid "Enable keyboard navigation (left/right/escape)."
+msgstr "キーボード (上下キーと Esc) を使ったナビゲーションを有効化します。"
+
+#: includes/class-settings.php:343
+msgid "Enable to load scripts and styles only on pages that have images or galleries in post content."
+msgstr "投稿された内容に画像やギャラリーが含まれたページのみ、スクリプトとスタイルシートの読み込みを許可します。"
+
+#: includes/class-settings.php:1098
+msgid "True will return to the first image after the last image is reached."
+msgstr "はいを選択すると、最後の画像の後に、最初の画像に戻ります。"
+
+#: includes/class-settings.php:1204
+msgid "Hide all the flash objects on a page. Enable this if flash appears over prettyPhoto."
+msgstr "ページ内のすべての Flash オブジェクトを非表示にします。素敵な写真の上に Flash コンテンツが重なってしまう際に有効にします。"
+
+#: includes/class-settings.php:1267
+msgid "When true, \"overlayShow\" is set to true and \"hideOnOverlayClick\", \"hideOnContentClick\", \"enableEscapeButton\", \"showCloseButton\" are set to false."
+msgstr "「オーバーレイ表示」が有効の場合、「オーバーレイクリックを非表示」、「コンテンツ内クリックを非表示」、「エスケープボタンを有効化」、「閉じるボタンを表示」が無効になります。"
+
+#: includes/class-settings.php:1557
+msgid "Whether or not to slide back to the first slide when the last has been reached."
+msgstr "最後のスライドに達した時点で、最初のスライドに戻ります。"
+
+#: includes/class-settings.php:1579
+msgid "The timeout between sliding to the next slide in milliseconds."
+msgstr "次のスライドを表示するまでの表示間隔 ( ミリ秒 )"
+
+#: includes/class-settings.php:2335
+msgid "Enter your license key to activate %s extension and enable automatic upgrade notices."
+msgstr "機能拡張 %s のライセンスキーを有効化し、自動アップグレード通知を有効にします。 "
+
+#: includes/class-settings.php:266
+msgid "Select image size for gallery image links."
+msgstr "ギャラリー画像リンクの画像サイズを選択。"
+
+#: includes/class-settings.php:321
+msgid "Enable triggering lightbox on custom jQuery events."
+msgstr "独自の jQuery イベントをトリガーにした lightbox 表示を有効にする。"
+
+#: includes/class-settings.php:1606
+msgid "Bullets"
+msgstr "丸"
+
+#: includes/class-settings.php:1288 includes/class-settings.php:1658
+msgid "Toggle if pressing Esc button closes lightbox."
+msgstr "Esc ボタンを押すと lightbox の開閉を切り替えます。"
+
+#: includes/class-settings.php:1349
+msgid "Overlay opacity"
+msgstr "オーバーレイ不透明度"
+
+#: includes/class-settings.php:1593
+msgid "Pagination"
+msgstr "ページ送り"
+
+#: includes/class-settings.php:1151
+msgid "Show title"
+msgstr "タイトルを表示"
+
+#: includes/class-settings.php:2413
+msgid "%s license activation failed."
+msgid_plural "%s licenses activation failed."
+msgstr[0] "%s ライセンス認証に失敗しました。"
+
+#: includes/class-settings.php:2409
+msgid "%s license successfully activated."
+msgid_plural "%s licenses successfully activated."
+msgstr[0] "%s ライセンスを認証しました。"
+
+#: includes/class-settings.php:2453
+msgid "%s license successfully deactivated."
+msgid_plural "%s licenses successfully deactivated."
+msgstr[0] "%s ライセンスを無効化しました。"
+
+#: includes/class-settings.php:1607
+msgid "Thumbnails"
+msgstr "サムネイル"
+
+#: includes/class-settings.php:72
+msgid "prettyPhoto"
+msgstr "prettyPhoto"
+
+#: includes/class-settings.php:74
+msgid "slow"
+msgstr "遅い"
+
+#: includes/class-settings.php:75
+msgid "normal"
+msgstr "普通"
+
+#: includes/class-settings.php:76
+msgid "fast"
+msgstr "速い"
+
+#: includes/class-settings.php:79
+msgid "default"
+msgstr "デフォルト"
+
+#: includes/class-settings.php:84
+msgid "facebook"
+msgstr "facebook"
+
+#: includes/class-settings.php:87
+msgid "window"
+msgstr "ウィンドウ"
+
+#: includes/class-settings.php:88
+msgid "transparent"
+msgstr "透明"
+
+#: includes/class-settings.php:89
+msgid "opaque"
+msgstr "不透明"
+
+#: includes/class-settings.php:90
+msgid "direct"
+msgstr "指示"
+
+#: includes/class-settings.php:91
+msgid "gpu"
+msgstr "GPU"
+
+#: includes/class-settings.php:64
+msgid "SwipeBox"
+msgstr "SwipeBox"
+
+#: includes/class-settings.php:66
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/class-settings.php:67
+msgid "jQuery"
+msgstr "jQuery"
+
+#: includes/class-settings.php:235 includes/class-settings.php:973
+msgid "Galleries"
+msgstr "ギャラリー"
+
+#: includes/class-settings.php:229
+msgid "Single images as gallery"
+msgstr "ギャラリーのような表示"
+
+#: includes/class-settings.php:232
+msgid "Display single post images as a gallery."
+msgstr "ギャラリーのように単一の投稿画像を表示します。"
+
+#: includes/class-settings.php:103
+msgid "auto"
+msgstr "自動"
+
+#: includes/class-settings.php:98
+msgid "elastic"
+msgstr "エラスティック"
+
+#: includes/class-settings.php:99 includes/class-settings.php:121
+#: includes/class-settings.php:1549
+msgid "fade"
+msgstr "フェード"
+
+#: includes/class-settings.php:96
+msgid "FancyBox"
+msgstr "FancyBox"
+
+#: includes/class-settings.php:113
+msgid "inside"
+msgstr "内側"
+
+#: includes/class-settings.php:109
+msgid "linear"
+msgstr "リニア"
+
+#: includes/class-settings.php:105
+msgid "no"
+msgstr "いいえ"
+
+#: includes/class-settings.php:100 includes/class-galleries.php:401
+#: includes/class-galleries.php:420
+msgid "none"
+msgstr "なし"
+
+#: includes/class-settings.php:112
+msgid "outside"
+msgstr "外"
+
+#: includes/class-settings.php:114
+msgid "over"
+msgstr "以上"
+
+#: includes/class-settings.php:108
+msgid "swing"
+msgstr "スイング"
+
+#: includes/class-settings.php:104
+msgid "yes"
+msgstr "はい"
+
+#: includes/class-settings.php:119
+msgid "Nivo Lightbox"
+msgstr "Nivo Lightbox"
+
+#: includes/class-settings.php:122
+msgid "fade scale"
+msgstr "フェードスケール"
+
+#: includes/class-settings.php:123
+msgid "slide left"
+msgstr "左へスライド"
+
+#: includes/class-settings.php:124
+msgid "slide right"
+msgstr "右へスライド"
+
+#: includes/class-settings.php:125
+msgid "slide up"
+msgstr "上へスライド"
+
+#: includes/class-settings.php:126
+msgid "slide down"
+msgstr "下へスライド"
+
+#: includes/class-settings.php:127
+msgid "fall"
+msgstr "フォール"
+
+#: includes/class-settings.php:336
+msgid "Footer"
+msgstr "フッター"
+
+#: includes/class-settings.php:335
+msgid "Header"
+msgstr "ヘッダー"
+
+#: includes/class-settings.php:132
+msgid "Image Lightbox"
+msgstr "Image Lightbox"
+
+#: includes/class-settings.php:164
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: includes/class-settings.php:165
+msgid "Medium"
+msgstr "中"
+
+#: includes/class-settings.php:152 includes/class-galleries.php:562
+msgid "Image Caption"
+msgstr "画像のキャプション"
+
+#: includes/class-settings.php:153
+msgid "Image Alt Text"
+msgstr "画像 alt 文"
+
+#: includes/class-settings.php:154
+msgid "Image Description"
+msgstr "画像の説明"
+
+#: includes/class-settings.php:151 includes/class-galleries.php:555
+msgid "Image Title"
+msgstr "画像タイトル"
+
+#: includes/class-settings.php:218
+msgid "Select title for single images."
+msgstr "個別画像のタイトルを選択してください。"
+
+#: includes/class-settings.php:215
+msgid "Single image title"
+msgstr "個別画像のタイトル"
+
+#: includes/class-settings.php:136
+msgid "TosRUs"
+msgstr "TosRUs"
+
+#: includes/class-settings.php:81
+msgid "dark rounded"
+msgstr "角丸 (ダーク)"
+
+#: includes/class-settings.php:83
+msgid "dark square"
+msgstr "角 (ダーク)"
+
+#: includes/class-settings.php:80
+msgid "light rounded"
+msgstr "角丸 (ライト)"
+
+#: includes/class-settings.php:82
+msgid "light square"
+msgstr "角 (ライト)"
+
+#: includes/class-settings.php:203
+msgid "Selector"
+msgstr "セレクター"
+
+#: includes/class-settings.php:181
+msgid "General settings"
+msgstr "一般設定"
+
+#: includes/class-settings.php:166
+msgid "Large"
+msgstr "大"
