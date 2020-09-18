@@ -60,7 +60,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li class="hvr-bounce-to-bottom <?php if ( is_page('about') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/about">ABOUT</a></li>
 					<li class="hvr-bounce-to-bottom <?php if ( is_page('reserve') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/reserve">Services</a></li>
 					<li class="hvr-bounce-to-bottom <?php if ( is_page('gallery') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/gallery">GALLERY</a></li>
-					<li class="hvr-bounce-to-bottom <?php if ( is_page('blog') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
+					<li class="hvr-bounce-to-bottom <?php if ( is_archive('blog') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/blog">Blog</a></li>
 					<li class="hvr-bounce-to-bottom <?php if ( is_page('contact') ) { echo 'active'; } ?>"><a href="<?php echo home_url(); ?>/contact-us">Contact Us</a></li>
 				  </ul>
 			  <div class="clearfix"></div>

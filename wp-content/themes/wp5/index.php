@@ -1,4 +1,4 @@
-<?php load_template(TEMPLATEPATH . '/header-2.php'); ?>
+<?php load_template(TEMPLATEPATH . '/header.php'); ?>
 	<div class="header-banner">
 		<div class="banner">
 						<div  id="top" class="callbacks_container">
@@ -305,6 +305,3 @@
 		</div>
 <!--/index-team-->
 <?php get_footer(); ?>
-<?php wp_footer(); ?>
-</body>
-</html>
