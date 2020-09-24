@@ -38,6 +38,9 @@ ul{
 }
 label{
 	margin:0;
+	color: #999;
+  font-size: 0.95em;
+  line-height: 1.8em;
 }
 /*-----start-header----*/
 .logo {
@@ -1654,6 +1657,13 @@ h3.bars {
   margin-left:25px;
   margin-right:25px;
 }
+
+/*ページナビ*/
+.wp-pagenavi{
+  display:block;
+  text-align: center;
+  padding-top: 50px;
+}
 /*.blog-post-grids:nth-child(4){*/
 /*	  margin: 25px 0em 0 0;*/
 /*}*/
@@ -2094,8 +2104,28 @@ p.your-para {
   font-size: 0.9em;
   margin:0 0 5px 0;
 }
-.contact-grid input[type="text"], .contact-grid textarea {
-  width: 100%;
+.contact-grid input[type="text"]{
+  width: 550px;
+  padding:0.8em;
+  margin: 0 0 0.8em 0;
+
+  background: #fff;
+  outline: none;
+  border: 1px solid #DADADA;
+  -webkit-appearance: none;
+}
+.contact-grid input[type="email"]{
+  width: 550px;
+  padding:0.8em;
+  margin: 0 0 0.8em 0;
+
+  background: #fff;
+  outline: none;
+  border: 1px solid #DADADA;
+  -webkit-appearance: none;
+}
+.wpcf7-textarea{
+  width: 550px;
   padding:0.8em;
   margin: 0 0 0.8em 0;
 
