@@ -9,13 +9,14 @@ if (!class_exists('MTSSB_Booking')) {
  * @Date		2012-05-05
  * @Author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-29
  * Updated to 1.2.1 on 2012-04-29
  * Updated to 1.2.0 on 2012-12-22
  * Updated to 1.1.0 on 2012-10-11
  */
 
 class MTSSB_Calendar_Admin extends MTSSB_Booking {
-	const VERSION = '1.2.1';
+	const VERSION = '1.4.0';
 	const PAGE_NAME = MTS_Simple_booking::ADMIN_MENU;
 
 	private static $iCal = null;
@@ -387,7 +388,7 @@ class MTSSB_Calendar_Admin extends MTSSB_Booking {
 						$client = &$reserve['client'];
 						echo '<div class="client-name">';
 						echo '<a href="?page=' . self::PAGE_NAME . "&amp;bid={$reserve['booking_id']}\">";
-						echo empty($client['name']) ? __('No Name', $this->domain) : $client['name'];
+						echo empty($client['name']) ? __('No Name', $this->domain) : esc_html($client['name']);
 						echo "</a>({$reserve['number']})";
 						echo "</div>";
 					}

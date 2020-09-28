@@ -6,12 +6,13 @@
  * @Date		2012-05-01
  * @Author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-29
  * Updated to 1.2.0 on 2012-12-23
  * Updated to 1.1.5 on 2012-12-03
  */
 
 class MTSSB_Booking {
-	const VERSION = '1.2.0';
+	const VERSION = '1.4.0';
 
 	const BOOKING_TABLE = 'mtssb_booking';
 	const TABLE_VERSION = '1.1';
@@ -818,7 +819,7 @@ class MTS_WPDate {
 	 * @dstr	'Y-n-j'
 	 */
 	public function set_date($dstr) {
-		$dd = split('-', $dstr);
+		$dd = explode('-', $dstr);
 		if (count($dd) < 3) {
 			return false;
 		}
@@ -900,7 +901,7 @@ class MTS_WPDate {
 			extract($this->adate);
 		}
 
-		$today = split('-', date_i18n('Y-n-j'));
+		$today = explode('-', date_i18n('Y-n-j'));
 
 		ob_start();
 ?>

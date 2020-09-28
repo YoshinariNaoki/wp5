@@ -6,11 +6,12 @@
  * @Date		2012-04-27
  * @Author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-29
  * Updated to 1.2.0 on 2012-12-22
  */
 
 class MTSSB_Schedule_Admin { //extends MTSSB_Schedule {
-	const VERSION = '1.2.0';
+	const VERSION = '1.4.0';
 	const PAGE_NAME = 'simple-booking-schedule';
 
 	private static $iSchedule = null;
@@ -105,7 +106,6 @@ class MTSSB_Schedule_Admin { //extends MTSSB_Schedule {
 
 ?>
 	<div class="wrap">
-		<?php screen_icon('edit') ?>
 		<h2><?php _e('Schadule Management', $this->domain); ?></h2>
 		<?php if (!empty($this->message)) : ?>
 			<div class="<?php echo ($this->errflg) ? 'error' : 'updated' ?>"><p><strong><?php echo $this->message; ?></strong></p></div>

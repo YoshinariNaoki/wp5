@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: MTS Simple Booking-C
-Plugin URI:http://app.mt-systems.jp/mtssb/
+Plugin URI:http://mtssb.mt-systems.jp/
 Description: 汎用簡易予約処理システムです。オンラインで予約を受付けメール転送でお知らせします。WordPress Ver.3.5以降で動作させて下さい。
-Version: 1.2.1
+Version: 1.4.1
 Author: S.Hayashi
 Author URI: http://web.mt-systems.jp
 */
-/*  Copyright 2012 -2013 S.Hayashi
+/*  Copyright 2012 -2018 S.Hayashi
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License as published by
@@ -20,10 +20,11 @@ Author URI: http://web.mt-systems.jp
 	GNU General Public License for more details.
 
 	You should have received a copy of the GNU General Public License
-	along with this program; if not, write to the Free Software
-	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+	along with MTS Hall Booking. If not, see <http://www.gunu.org/licenses/>.
 */
 /*
+ * Updated to 1.4.1 on 2019-10-26
+ * Updated to 1.4.0 on 2018-01-29
  * Updated to 1.2.1 on 2013-11-21
  * Updated to 1.2.0 on 2012-12-22
  * Updated to 1.1.5 on 2012-11-27
@@ -35,7 +36,7 @@ $mts_simple_booking = new MTS_Simple_Booking();
 
 class MTS_Simple_Booking {
 
-	const VERSION = '1.2.1';
+	const VERSION = '1.4.1';
 	const DOMAIN = 'mts_simple_booking';
 
 	const ADMIN_MENU = 'simple-booking';
@@ -92,7 +93,10 @@ class MTS_Simple_Booking {
 		// 予約カレンダーウィジェットモジュールのロード
 		require_once('mtssb-calendar-widget.php');
 		MTSSB_Calendar_Widget::set_ajax_hook();
-		add_action('widgets_init', create_function('', 'register_widget("' . MTSSB_Calendar_Widget::BASE_ID . '");'));
+        add_action('widgets_init', function() {
+            register_widget(MTSSB_Calendar_Widget::BASE_ID);
+        });
+
 	}
 
 	/**
@@ -117,9 +121,8 @@ class MTS_Simple_Booking {
 
 			// ユーザーロールがcustomerなら管理画面を表示させない
 			if (!$this->mtscu_activation) {
-				global $current_user;
-				get_currentuserinfo();
-				if (in_array(self::USER_ROLE, $current_user->roles)) {
+				$currentUser = wp_get_current_user();
+				if (in_array(self::USER_ROLE, $currentUser->roles)) {
 					wp_redirect(home_url());
 					exit();
 				}

@@ -6,11 +6,12 @@
  * @date		2012-04-23
  * @author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-29
  * Updated to 1.1.5 on 2012-12-02
  * Updated to 1.1.0 on 2012-11-02
  */
 class MTSSB_Settings_Admin {
-	const VERSION = '1.1.5';
+	const VERSION = '1.4.0';
 	const PAGE_NAME = 'simple-booking-settings';
 
 	/**
@@ -80,7 +81,6 @@ class MTSSB_Settings_Admin {
 		//$this->add_fields_settings();
 ?>
 	<div class="wrap">
-	<?php screen_icon('options-general') ?>
 	<h2><?php _e('Setting Parameters', $this->domain); ?></h2>
 	<h3 class="nav-tab-wrapper">
 		<?php foreach ($this->tabs as $tb) : ?>

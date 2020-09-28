@@ -9,12 +9,13 @@ if (!class_exists('MTSSB_Booking')) {
  * @Date		2012-04-30
  * @Author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-29
  * Updatet to 1.1.5 on 2012-12-04
  * Updated to 1.0.1 on 2012-09-14
  */
 
 class MTSSB_Booking_Admin extends MTSSB_Booking {
-	const VERSION = '1.1.5';
+	const VERSION = '1.4.0';
 	const PAGE_NAME = 'simple-booking-booking';
 
 	private static $iBooking = null;
@@ -115,7 +116,6 @@ class MTSSB_Booking_Admin extends MTSSB_Booking {
 
 ?>
 	<div class="wrap columns-2">
-		<?php screen_icon('edit') ?>
 		<h2><?php echo $action == 'save' ? __('Edit Booking', $this->domain) : __('Add Booking', $this->domain) ?></h2>
 		<?php if (!empty($this->message)) : ?>
 			<div class="<?php echo ($this->errflg) ? 'error' : 'updated' ?>"><p><strong><?php echo $this->message; ?></strong></p></div>

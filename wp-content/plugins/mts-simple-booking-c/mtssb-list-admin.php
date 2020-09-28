@@ -9,12 +9,13 @@ if (!class_exists('MTSSB_Booking')) {
  * @Date		2012-04-30
  * @Author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-29
  * Updated to 1.1.0 on 2012-10-11
  * Updated to 1.0.2 on 2012-10-23
  */
 
 class MTSSB_List_Admin extends MTSSB_Booking {
-	const VERSION = '1.1.0';
+	const VERSION = '1.4.0';
 	const PAGE_NAME = 'simple-booking-list';
 
 	private static $iList = null;
@@ -302,7 +303,7 @@ class MTSSB_Booking_List extends WP_List_Table {
 			case 'created' :
 				return substr($item[$column_name], 0, 10) . '<br />' . substr($item[$column_name], -8);
 			case 'name' :
-				return (empty($item['client']['company']) ? '' : "{$item['client']['company']}<br />") . $item['client']['name'];
+				return (empty($item['client']['company']) ? '' : sprintf('%s<br />', esc_html($item['client']['company']))) . esc_html($item['client']['name']);
 			//case 'booking_time' :
 			//	return date('Y-m-d H:i', $item['booking_time']);
 			default :

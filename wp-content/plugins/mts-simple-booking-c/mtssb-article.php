@@ -6,10 +6,11 @@
  * @Date		2012-04-19
  * @Author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-29
  */
 
 class MTSSB_Article {
-	const VERSION = '1.0.0';
+	const VERSION = '1.4.0';
 
 	const POST_TYPE = 'mtssb_article';
 	const PST_VERSION = '1.0';
@@ -71,7 +72,7 @@ class MTSSB_Article {
 	 *	Override function for admin class
 	 * 
 	 */
-	public function register_meta_box($post) {
+	public function register_meta_box() {
 	}
 
 	/**

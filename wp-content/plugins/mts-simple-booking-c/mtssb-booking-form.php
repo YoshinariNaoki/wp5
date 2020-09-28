@@ -9,13 +9,14 @@ if (!class_exists('MTSSB_Booking')) {
  * @Date		2012-05-15
  * @Author		S.Hayashi
  *
+ * Updated to 1.4.0 on 2018-01-28
  * Updated to 1.2.0 on 2012-12-22
  * Updated to 1.1.5 on 2012-12-02
  * Updated to 1.1.0 on 2012-11-04
  */
 
 class MTSSB_Booking_Form extends MTSSB_Booking {
-	const VERSION = '1.2.0';
+	const VERSION = '1.4.0';
 	const PAGE_NAME = 'booking-form';
 
 	// 予約条件パラメータ
@@ -455,7 +456,6 @@ class MTSSB_Booking_Form extends MTSSB_Booking {
 	 *
 	 */
 	protected function _input_form() {
-		global $current_user;
 
 		$url = get_permalink();
 		$client = $this->booking['client'];
@@ -468,16 +468,16 @@ class MTSSB_Booking_Form extends MTSSB_Booking {
 
 		// ログイン中であればログインユーザー情報をセットする
 		if (is_user_logged_in() && empty($client['name']) && empty($client['email'])) {
-			get_currentuserinfo();
-			$client['company'] = get_the_author_meta('mtscu_company', $current_user->ID);
-			$client['name'] = $current_user->last_name . ' ' . $current_user->first_name;
-			$client['furigana'] = get_the_author_meta('mtscu_furigana', $current_user->ID);
-			$client['email'] = $email2 = $current_user->user_email;
-			$client['postcode'] = get_the_author_meta('mtscu_postcode', $current_user->ID);
-			$client['address1'] = get_the_author_meta('mtscu_address1', $current_user->ID);
-			$client['address2'] = get_the_author_meta('mtscu_address2', $current_user->ID);
-			$client['tel'] = get_the_author_meta('mtscu_tel', $current_user->ID);
-			$this->booking['user_id'] = $current_user->ID;
+			$currentUser = wp_get_current_user();
+			$client['company'] = get_the_author_meta('mtscu_company', $currentUser->ID);
+			$client['name'] = $currentUser->last_name . ' ' . $currentUser->first_name;
+			$client['furigana'] = get_the_author_meta('mtscu_furigana', $currentUser->ID);
+			$client['email'] = $email2 = $currentUser->user_email;
+			$client['postcode'] = get_the_author_meta('mtscu_postcode', $currentUser->ID);
+			$client['address1'] = get_the_author_meta('mtscu_address1', $currentUser->ID);
+			$client['address2'] = get_the_author_meta('mtscu_address2', $currentUser->ID);
+			$client['tel'] = get_the_author_meta('mtscu_tel', $currentUser->ID);
+			$this->booking['user_id'] = $currentUser->ID;
 		}
 
 		ob_start();
